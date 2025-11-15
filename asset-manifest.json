@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e0e8c7d1.css",
-    "main.js": "/static/js/main.453c2f1e.js",
+    "main.js": "/static/js/main.00dd8866.js",
+    "static/media/cv_jarumugam_fr.pdf": "/static/media/cv_jarumugam_fr.4cf33c17345bbe5550f3.pdf",
     "static/media/cub3d.jpg": "/static/media/cub3d.6fb92a4c48d12f374176.jpg",
     "static/media/ft_t.jpg": "/static/media/ft_t.50b9c69e96efae895a03.jpg",
     "static/media/philo.jpg": "/static/media/philo.819faec160f0ad778755.jpg",
@@ -17,7 +18,6 @@
     "static/media/groupomania.jpg": "/static/media/groupomania.3f57687d05bd75322569.jpg",
     "static/media/sass.png": "/static/media/sass.2e753527005878c60286.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/cv_jarumugam_fr.pdf": "/static/media/cv_jarumugam_fr.8d0fac9e55d6b63a4c32.pdf",
     "static/media/logo.png": "/static/media/logo.f8b3b53df91fafb42b18.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -25,10 +25,10 @@
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "index.html": "/index.html",
     "main.e0e8c7d1.css.map": "/static/css/main.e0e8c7d1.css.map",
-    "main.453c2f1e.js.map": "/static/js/main.453c2f1e.js.map"
+    "main.00dd8866.js.map": "/static/js/main.00dd8866.js.map"
   },
   "entrypoints": [
     "static/css/main.e0e8c7d1.css",
-    "static/js/main.453c2f1e.js"
+    "static/js/main.00dd8866.js"
   ]
 }
