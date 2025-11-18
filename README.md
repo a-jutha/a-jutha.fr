@@ -10,6 +10,7 @@ Visit the live portfolio at: [www.juth.fr](https://www.juth.fr)
 
 - **Modern React App**: Built with React 18 and Create React App
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Component-Based Architecture**: Modular, reusable UI components
 - **Custom Styling**: Tailored color palette and design system
 - **Interactive Elements**: Smooth scrolling navigation with react-scroll
 - **Icons**: React Icons library for consistent iconography
@@ -18,28 +19,64 @@ Visit the live portfolio at: [www.juth.fr](https://www.juth.fr)
 
 ## Technologies Used
 
-- **Frontend**: React 18, JavaScript
-- **Styling**: Tailwind CSS
+- **Frontend**: React 18, JavaScript/JSX
+- **Styling**: Tailwind CSS with PostCSS
 - **Icons**: React Icons
 - **Build Tool**: Create React App
+- **Navigation**: React Scroll
+- **Testing**: Jest, React Testing Library
 - **Deployment**: GitHub Pages
 
 ## Project Structure
 
 ```
-portfolio-react-app/
+portfolio/
 ├── public/
 │   ├── index.html
 │   ├── manifest.json
 │   ├── robots.txt
 │   └── CNAME
 ├── src/
-│   └── (React components and assets)
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Skills.jsx
+│   │   │   ├── FortyTwo.jsx
+│   │   │   ├── OpenClassrooms.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   └── index.js
+│   │   └── ui/
+│   │       ├── Button.jsx
+│   │       ├── Input.jsx
+│   │       ├── NavLink.jsx
+│   │       ├── ProjectCard.jsx
+│   │       ├── SectionHeader.jsx
+│   │       └── index.js
+│   ├── App.js
+│   └── index.js
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
 ```
+
+## Components
+
+### Sections
+- **Navbar**: Navigation bar with smooth scroll links
+- **Home**: Landing section with introduction
+- **Skills**: Display of technical skills and competencies
+- **FortyTwo**: Information about 42 school experience
+- **OpenClassrooms**: OpenClassrooms projects and achievements
+- **Contact**: Contact form and information
+
+### UI Components
+- **Button**: Reusable button component with consistent styling
+- **Input**: Form input component with Tailwind styling
+- **NavLink**: Navigation link component for the navbar
+- **ProjectCard**: Card component for displaying projects
+- **SectionHeader**: Consistent section header component
 
 ## Design System
 
@@ -49,18 +86,16 @@ The project uses a custom color palette defined in `tailwind.config.js`:
 - **Secondary**: `#fff` (White)
 - **Accent**: `#a4b753` (Olive green)
 
-### Custom Domain Setup
+## Getting Started
 
-The project is configured to use a custom domain (`www.juth.fr`) via:
-- `CNAME` file in the root directory
-- `public/CNAME` file for GitHub Pages
-- `homepage` field in `package.json`
+### Prerequisites
 
-## SEO & Meta Tags
+- Node.js (v14 or higher)
+- npm or yarn
 
-The portfolio includes:
-- Descriptive meta tags in French
-- Open Graph image support
-- Proper title and description
-- Responsive viewport configuration
+### Available Scripts
 
+- `npm start` - Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
+- `npm test` - Launches the test runner in interactive watch mode
+- `npm run build` - Builds the app for production to the `build` folder
+- `npm run deploy` - Deploys the app to GitHub Pages
