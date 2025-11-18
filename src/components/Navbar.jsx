@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import CV from "../assets/cv_jarumugam_fr.pdf";
 import { Link } from "react-scroll";
+import NavLink from "./NavLink";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -19,29 +20,10 @@ function Navbar() {
 
       {/* menu */}
       <ul className="hidden md:flex font-semibold">
-        <li className="hover:text-accent">
-          <Link to="skills" smooth={true} duration={500}>
-            skills
-          </Link>
-        </li>
-
-        <li className="hover:text-accent">
-          <Link to="fortytwo" smooth={true} duration={500}>
-            42
-          </Link>
-        </li>
-
-        <li className="hover:text-accent">
-          <Link to="openclassrooms" smooth={true} duration={500}>
-            openclassrooms
-          </Link>
-        </li>
-
-        <li className="hover:text-accent">
-          <Link to="contact" smooth={true} duration={500}>
-            contact
-          </Link>
-        </li>
+        <NavLink to="skills">skills</NavLink>
+        <NavLink to="fortytwo">42</NavLink>
+        <NavLink to="openclassrooms">openclassrooms</NavLink>
+        <NavLink to="contact">contact</NavLink>
       </ul>
 
       {/* Hamburger */}
@@ -68,39 +50,18 @@ function Navbar() {
           </a>
         </li>
 
-        <li className="py-6 text-4xl hover:text-accent">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            skills
-          </Link>
-        </li>
-
-        <li className="py-6 text-4xl hover:text-accent">
-          <Link
-            onClick={handleClick}
-            to="fortytwo"
-            smooth={true}
-            duration={500}
-          >
-            42
-          </Link>
-        </li>
-
-        <li className="py-6 text-4xl hover:text-accent">
-          <Link
-            onClick={handleClick}
-            to="openclassrooms"
-            smooth={true}
-            duration={500}
-          >
-            openclassrooms
-          </Link>
-        </li>
-
-        <li className="py-6 text-4xl hover:text-accent">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            contact
-          </Link>
-        </li>
+        <NavLink to="skills" onClick={handleClick} mobile>
+          skills
+        </NavLink>
+        <NavLink to="fortytwo" onClick={handleClick} mobile>
+          42
+        </NavLink>
+        <NavLink to="openclassrooms" onClick={handleClick} mobile>
+          openclassrooms
+        </NavLink>
+        <NavLink to="contact" onClick={handleClick} mobile>
+          contact
+        </NavLink>
       </ul>
 
       {/* Social icons */}
