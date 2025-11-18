@@ -1,5 +1,6 @@
 import SectionHeader from "./SectionHeader";
 import Button from "./Button";
+import Input from "./Input";
 
 function Contact() {
   return (
@@ -16,27 +17,22 @@ function Contact() {
           title="Contact"
           description="Please fill out the form below."
         />
-        <input
-          className="bg-primary text-secondary p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent"
-          type="text"
-          placeholder="Name"
-          name="name"
-          required="required"
-        />
-        <input
-          className="my-4 p-2 bg-primary text-secondary rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent"
+        <Input type="text" placeholder="Name" name="name" required />
+        <Input
           type="email"
           placeholder="Email"
           name="email"
-          required="required"
+          required
+          className="my-4"
         />
-        <textarea
-          className="bg-primary text-secondary p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent resize-none"
+        <Input
+          as="textarea"
           name="message"
           rows="10"
           placeholder="Message"
-          required="required"
-        ></textarea>
+          required
+          className="resize-none"
+        />
         <Button
           variant="outline"
           className="mt-4 flex items-center justify-center text-lg"
