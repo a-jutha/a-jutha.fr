@@ -16,12 +16,12 @@ function OpenClassrooms() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 Groupomania
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#React #NodeJS #SASS</p>
               <div className="pt-2">
                 <a
@@ -39,12 +39,12 @@ function OpenClassrooms() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-amber-500 via-orange-600 to-red-600">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 Hot Takes
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#NodeJS</p>
               <div className="pt-2">
                 <a
@@ -62,12 +62,12 @@ function OpenClassrooms() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-teal-500 via-cyan-600 to-blue-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 Kanap
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#Vanilla JavaScript</p>
               <div className="pt-2 flex gap-2 justify-center">
                 <a
@@ -94,14 +94,14 @@ function OpenClassrooms() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-lime-500 via-green-600 to-emerald-700">
-            <div className="relative z-10 text-center px-4 opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center px-4 opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-2xl md:text-3xl font-black text-white tracking-wider block">
                 La Chouette Agence
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
-              <p className="text-secondary text-sm mb-4">#SEO #HTML #CSS</p>
-              <div className="pt-2 flex gap-2 justify-center">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-6 z-20">
+              <p className="text-secondary text-sm mb-3">#SEO #HTML #CSS</p>
+              <div className="flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/html_lachouetteagence/"
                   target="_blank"
@@ -126,12 +126,12 @@ function OpenClassrooms() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-fuchsia-500 via-pink-600 to-rose-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 Ohmyfood
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#HTML #SASS</p>
               <div className="pt-2 flex gap-2 justify-center">
                 <a
@@ -158,12 +158,12 @@ function OpenClassrooms() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-indigo-500 via-purple-600 to-violet-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 Reservia
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#HTML #CSS</p>
               <div className="pt-2 flex gap-2 justify-center">
                 <a

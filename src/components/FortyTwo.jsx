@@ -17,13 +17,13 @@ function FortyTwo() {
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-accent via-blue-500 to-purple-600">
             {/* Title always visible */}
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 ft_transcendance
               </span>
             </div>
             {/* Content on hover */}
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#TypeScript #Fastify #SQLite #Tailwind</p>
               <div className="pt-2">
                 <a
@@ -41,12 +41,12 @@ function FortyTwo() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 inception
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#Docker</p>
               <div className="pt-2">
                 <a
@@ -64,12 +64,12 @@ function FortyTwo() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 webserv
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#C++</p>
               <div className="pt-2">
                 <a
@@ -87,12 +87,12 @@ function FortyTwo() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-orange-500 via-red-500 to-pink-600">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 cub3d
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#C</p>
               <div className="pt-2">
                 <a
@@ -110,12 +110,12 @@ function FortyTwo() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 minishell
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#C</p>
               <div className="pt-2">
                 <a
@@ -133,12 +133,12 @@ function FortyTwo() {
 
           {/* Grid Item */}
           <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-rose-500 via-pink-600 to-purple-700">
-            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
               <span className="text-3xl font-black text-white tracking-wider block">
                 philosopher
               </span>
             </div>
-            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#C</p>
               <div className="pt-2">
                 <a
