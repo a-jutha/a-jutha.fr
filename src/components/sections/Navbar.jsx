@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../../assets/logo.png";
@@ -10,15 +10,27 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  // Bloquer le scroll quand le menu mobile est ouvert
+  useEffect(() => {
+    if (nav) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [nav]);
+
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-secondary">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-secondary z-50">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img src={Logo} alt="Logo" style={{ width: "50px" }} />
         </Link>
       </div>
 
-      {/* menu */}
+      {/* Desktop menu */}
       <ul className="hidden md:flex font-semibold">
         <NavLink to="skills">skills</NavLink>
         <NavLink to="fortytwo">42</NavLink>
@@ -27,42 +39,40 @@ function Navbar() {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-[150] relative cursor-pointer">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center"
-        }
-      >
-        <li className="py-6 text-4xl hover:text-accent">
-          <a
-            onClick={handleClick}
-            href={CV}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            cv
-          </a>
-        </li>
+      {nav && (
+        <div className="fixed inset-0 bg-primary z-[100] md:hidden flex items-center justify-center">
+          <ul className="flex flex-col items-start">
+            <li className="py-6 text-4xl hover:text-accent">
+              <a
+                onClick={handleClick}
+                href={CV}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                cv
+              </a>
+            </li>
 
-        <NavLink to="skills" onClick={handleClick} mobile>
-          skills
-        </NavLink>
-        <NavLink to="fortytwo" onClick={handleClick} mobile>
-          42
-        </NavLink>
-        <NavLink to="openclassrooms" onClick={handleClick} mobile>
-          openclassrooms
-        </NavLink>
-        <NavLink to="contact" onClick={handleClick} mobile>
-          contact
-        </NavLink>
-      </ul>
+            <NavLink to="skills" onClick={handleClick} mobile>
+              skills
+            </NavLink>
+            <NavLink to="fortytwo" onClick={handleClick} mobile>
+              42
+            </NavLink>
+            <NavLink to="openclassrooms" onClick={handleClick} mobile>
+              openclassrooms
+            </NavLink>
+            <NavLink to="contact" onClick={handleClick} mobile>
+              contact
+            </NavLink>
+          </ul>
+        </div>
+      )}
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
