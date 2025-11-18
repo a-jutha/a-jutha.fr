@@ -1,11 +1,3 @@
-import React from "react";
-import Groupomania from "../assets/project/groupomania.jpg";
-import HotTakes from "../assets/project/hot_takes.jpg";
-import Kanap from "../assets/project/kanap.jpg";
-import ChouetteAgence from "../assets/project/chouette_agence.jpg";
-import Ohmyfood from "../assets/project/ohmyfood.jpg";
-import Reservia from "../assets/project/reservia.jpg";
-
 function OpenClassrooms() {
   return (
     <div
@@ -17,23 +9,21 @@ function OpenClassrooms() {
           <p className="text-4xl font-bold inline border-b-4 border-accent">
             OpenClassrooms
           </p>
-          <p className="py-4">#javascript #react #sass #nodejs</p>
+          <p className="py-4">An online learning platform offering career-focused courses in tech and digital skills.</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Groupomania})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 Groupomania
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#React #NodeJS #SASS</p>
-              <div className="pt-4">
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/react_groupomania"
                   target="_blank"
@@ -46,18 +36,17 @@ function OpenClassrooms() {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${HotTakes})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-amber-500 via-orange-600 to-red-600">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 Hot Takes
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#NodeJS</p>
-              <div className="pt-4">
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/nodejs_hot_takes"
                   target="_blank"
@@ -70,18 +59,17 @@ function OpenClassrooms() {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Kanap})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-teal-500 via-cyan-600 to-blue-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 Kanap
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#Vanilla JavaScript</p>
-              <div className="pt-4 flex gap-2 justify-center">
+              <div className="pt-2 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/js_kanap/front/html/index.html"
                   target="_blank"
@@ -103,18 +91,17 @@ function OpenClassrooms() {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${ChouetteAgence})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-lime-500 via-green-600 to-emerald-700">
+            <div className="relative z-10 text-center px-4 opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-2xl md:text-3xl font-black text-white tracking-wider block">
                 La Chouette Agence
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#SEO #HTML #CSS</p>
-              <div className="pt-4 flex gap-2 justify-center">
+              <div className="pt-2 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/html_lachouetteagence/"
                   target="_blank"
@@ -136,18 +123,17 @@ function OpenClassrooms() {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Ohmyfood})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-fuchsia-500 via-pink-600 to-rose-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 Ohmyfood
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#HTML #SASS</p>
-              <div className="pt-4 flex gap-2 justify-center">
+              <div className="pt-2 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/sass_ohmyfood/"
                   target="_blank"
@@ -169,18 +155,17 @@ function OpenClassrooms() {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Reservia})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-indigo-500 via-purple-600 to-violet-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 Reservia
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#HTML #CSS</p>
-              <div className="pt-4 flex gap-2 justify-center">
+              <div className="pt-2 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/css_reservia/"
                   target="_blank"

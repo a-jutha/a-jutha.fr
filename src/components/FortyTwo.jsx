@@ -1,11 +1,3 @@
-import React from "react";
-import Transcendance from "../assets/project/ft_t.jpg";
-import Inception from "../assets/project/inception.jpg";
-import Webserv from "../assets/project/webserv.jpg";
-import Cub3d from "../assets/project/cub3d.jpg";
-import Minishell from "../assets/project/minishell.jpg";
-import Philo from "../assets/project/philo.jpg";
-
 function FortyTwo() {
   return (
     <div
@@ -17,25 +9,23 @@ function FortyTwo() {
           <p className="text-4xl font-bold inline border-b-4 border-accent">
             42
           </p>
-          <p className="py-4">#c #c++ #typescript #tailwind</p>
+          <p className="py-4">A tuition-free coding school with a peer-to-peer learning model and no teachers.</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Transcendance})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            {/* Content */}
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-accent via-blue-500 to-purple-600">
+            {/* Title always visible */}
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 ft_transcendance
               </span>
+            </div>
+            {/* Content on hover */}
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#TypeScript #Fastify #SQLite #Tailwind</p>
-              <div className="pt-4">
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/ts_transcendence"
                   target="_blank"
@@ -50,17 +40,15 @@ function FortyTwo() {
           </div>
 
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Inception})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 inception
               </span>
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
               <p className="text-secondary text-sm mb-4">#Docker</p>
-              <div className="pt-4">
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/inception"
                   target="_blank"
@@ -75,17 +63,15 @@ function FortyTwo() {
           </div>
 
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Webserv})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 webserv
               </span>
-              <p className="text-secondary text-sm mb-4">#c++</p>
-              <div className="pt-4">
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+              <p className="text-secondary text-sm mb-4">#C++</p>
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/cpp_webserv"
                   target="_blank"
@@ -100,17 +86,15 @@ function FortyTwo() {
           </div>
 
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Cub3d})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-orange-500 via-red-500 to-pink-600">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 cub3d
               </span>
-              <p className="text-secondary text-sm mb-4">#c</p>
-              <div className="pt-4">
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+              <p className="text-secondary text-sm mb-4">#C</p>
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/c_cub3d"
                   target="_blank"
@@ -125,17 +109,15 @@ function FortyTwo() {
           </div>
 
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Minishell})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 minishell
               </span>
-              <p className="text-secondary text-sm mb-4">#c</p>
-              <div className="pt-4">
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+              <p className="text-secondary text-sm mb-4">#C</p>
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/c_minishell"
                   target="_blank"
@@ -150,17 +132,15 @@ function FortyTwo() {
           </div>
 
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Philo})` }}
-            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
-              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
+          <div className="group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br from-rose-500 via-pink-600 to-purple-700">
+            <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+              <span className="text-3xl font-black text-white tracking-wider block">
                 philosopher
               </span>
-              <p className="text-secondary text-sm mb-4">#c</p>
-              <div className="pt-4">
+            </div>
+            <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4">
+              <p className="text-secondary text-sm mb-4">#C</p>
+              <div className="pt-2">
                 <a
                   href="https://github.com/cremedekiwi/c_philosopher"
                   target="_blank"
