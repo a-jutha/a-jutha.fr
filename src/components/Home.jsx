@@ -7,19 +7,19 @@ function Home() {
     <div name="home" className="w-full h-screen bg-primary">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-base sm:text-4xl text-accent">
-          42 common core complete • available for hire
+        <p className="text-xl sm:text-5xl font-bold bg-gradient-to-r from-accent via-blue-400 to-accent bg-clip-text text-transparent animate-pulse mb-2">
+          42 common core complete
         </p>
-        <p className="text-sm sm:text-2xl text-secondary py-4 max-w-[700px]">
+        <p className="text-lg sm:text-3xl text-accent font-semibold mb-6">
+          available for a 6 month internship in Paris
+        </p>
+        <p className="text-base sm:text-3xl text-secondary py-4 max-w-[700px] font-light">
           Where pixels meet programming.
         </p>
-        <div>
+        <div className="mt-4">
           <Link to="fortytwo" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-accent hover:border-accent">
+            <button className="text-white group border-2 px-8 py-4 my-2 flex items-center hover:bg-accent hover:border-accent transition-all duration-300 rounded-lg font-semibold text-lg shadow-lg hover:shadow-accent/50 hover:scale-105">
               See my projects
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
             </button>
           </Link>
         </div>

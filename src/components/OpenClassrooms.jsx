@@ -21,29 +21,26 @@ function OpenClassrooms() {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Groupomania})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 Groupomania
               </span>
-              <p>#React #NodeJS #SASS</p>
-              <div className="pt-8 text-center">
-                {/* <a href='/'> */}
-                {/* <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-secondary font-bold text-lg'>Demo</button> */}
-                {/* </a> */}
+              <p className="text-secondary text-sm mb-4">#React #NodeJS #SASS</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/react_groupomania"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -52,25 +49,22 @@ function OpenClassrooms() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${HotTakes})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 Hot Takes
               </span>
-              <p>#NodeJS</p>
-              <div className="pt-8 text-center">
-                {/* <a href='/'> */}
-                {/* <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-secondary font-bold text-lg'>Demo</button> */}
-                {/* </a> */}
+              <p className="text-secondary text-sm mb-4">#NodeJS</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/nodejs_hot_takes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -79,21 +73,21 @@ function OpenClassrooms() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Kanap})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 Kanap
               </span>
-              <p>#Vanilla JavaScript</p>
-              <div className="pt-8 text-center">
+              <p className="text-secondary text-sm mb-4">#Vanilla JavaScript</p>
+              <div className="pt-4 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/js_kanap/front/html/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all duration-300 shadow-lg">
                     Demo
                   </button>
                 </a>
@@ -102,7 +96,7 @@ function OpenClassrooms() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
                     Code
                   </button>
                 </a>
@@ -112,21 +106,21 @@ function OpenClassrooms() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${ChouetteAgence})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 La Chouette Agence
               </span>
-              <p>#SEO #HTML #CSS</p>
-              <div className="pt-8 text-center">
+              <p className="text-secondary text-sm mb-4">#SEO #HTML #CSS</p>
+              <div className="pt-4 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/html_lachouetteagence/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all duration-300 shadow-lg">
                     Demo
                   </button>
                 </a>
@@ -135,7 +129,7 @@ function OpenClassrooms() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
                     Code
                   </button>
                 </a>
@@ -145,21 +139,21 @@ function OpenClassrooms() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Ohmyfood})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 Ohmyfood
               </span>
-              <p>#HTML #SASS</p>
-              <div className="pt-8 text-center">
+              <p className="text-secondary text-sm mb-4">#HTML #SASS</p>
+              <div className="pt-4 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/sass_ohmyfood/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all duration-300 shadow-lg">
                     Demo
                   </button>
                 </a>
@@ -168,7 +162,7 @@ function OpenClassrooms() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
                     Code
                   </button>
                 </a>
@@ -178,21 +172,21 @@ function OpenClassrooms() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Reservia})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 Reservia
               </span>
-              <p>#HTML #CSS</p>
-              <div className="pt-8 text-center">
+              <p className="text-secondary text-sm mb-4">#HTML #CSS</p>
+              <div className="pt-4 flex gap-2 justify-center">
                 <a
                   href="https://cremedekiwi.github.io/css_reservia/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all duration-300 shadow-lg">
                     Demo
                   </button>
                 </a>
@@ -201,7 +195,7 @@ function OpenClassrooms() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
                     Code
                   </button>
                 </a>

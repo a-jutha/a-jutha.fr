@@ -21,29 +21,28 @@ function FortyTwo() {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Transcendance})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            {/* Content */}
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 ft_transcendance
               </span>
-              <p>#TypeScript #Fastify #SQLite #Tailwind</p>
-              <div className="pt-8 text-center">
-                {/* <a href='/'> */}
-                {/* <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-secondary font-bold text-lg'>Demo</button> */}
-                {/* </a> */}
+              <p className="text-secondary text-sm mb-4">#TypeScript #Fastify #SQLite #Tailwind</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/ts_transcendence"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -53,25 +52,22 @@ function FortyTwo() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Inception})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 inception
               </span>
-              <p>#Docker</p>
-              <div className="pt-8 text-center">
-                {/* <a href='/'> */}
-                {/* <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-secondary font-bold text-lg'>Demo</button> */}
-                {/* </a> */}
+              <p className="text-secondary text-sm mb-4">#Docker</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/inception"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -81,31 +77,22 @@ function FortyTwo() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Webserv})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 webserv
               </span>
-              <p>#c++</p>
-              <div className="pt-8 text-center">
-                {/* <a
-                  href="https://cremedekiwi.github.io/js_kanap/front/html/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Demo
-                  </button>
-                </a> */}
+              <p className="text-secondary text-sm mb-4">#c++</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/cpp_webserv"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -115,31 +102,22 @@ function FortyTwo() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Cub3d})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 cub3d
               </span>
-              <p>#c</p>
-              <div className="pt-8 text-center">
-                {/* <a
-                  href="https://cremedekiwi.github.io/sass_ohmyfood/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Demo
-                  </button>
-                </a> */}
+              <p className="text-secondary text-sm mb-4">#c</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/c_cub3d"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -149,31 +127,22 @@ function FortyTwo() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Minishell})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 minishell
               </span>
-              <p>#c</p>
-              <div className="pt-8 text-center">
-                {/* <a
-                  href="https://cremedekiwi.github.io/css_reservia/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Demo
-                  </button>
-                </a> */}
+              <p className="text-secondary text-sm mb-4">#c</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/c_minishell"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>
@@ -183,31 +152,22 @@ function FortyTwo() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Philo})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-lg flex justify-center items-center mx-auto content-div shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden"
           >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transform transition-all duration-300">
+              <span className="text-2xl font-bold text-accent tracking-wider block mb-3">
                 philosopher
               </span>
-              <p>#c</p>
-              <div className="pt-8 text-center">
-                {/* <a
-                  href="https://cremedekiwi.github.io/css_reservia/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Demo
-                  </button>
-                </a> */}
+              <p className="text-secondary text-sm mb-4">#c</p>
+              <div className="pt-4">
                 <a
                   href="https://github.com/cremedekiwi/c_philosopher"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="text-center rounder-lg px-4 py-3 m-2 bg-white text-primary font-bold text-lg">
-                    Code
+                  <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
+                    View Code
                   </button>
                 </a>
               </div>

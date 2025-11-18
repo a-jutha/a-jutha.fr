@@ -18,28 +18,28 @@ function Contact() {
           <p className="text-secondary py-4">Please fill out the form below</p>
         </div>
         <input
-          className="bg-secondary p-2 focus:outline-none focus:ring-2 focus:ring-accent"
+          className="bg-primary text-secondary p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent"
           type="text"
           placeholder="Name"
           name="name"
           required="required"
         />
         <input
-          className="my-4 p-2 bg-secondary focus:outline-none focus:ring-2 focus:ring-accent"
+          className="my-4 p-2 bg-primary text-secondary rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent"
           type="email"
-          placeholder="Mail"
+          placeholder="Email"
           name="email"
           required="required"
         />
         <textarea
-          className="bg-secondary p-2 focus:outline-none focus:ring-2 focus:ring-accent"
+          className="bg-primary text-secondary p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 border border-gray-700 hover:border-accent resize-none"
           name="message"
           rows="10"
           placeholder="Message"
           required="required"
         ></textarea>
-        <button className="text-white border-2 hover:bg-accent hover:border-accent px-4 py-3 my-8 mx-auto flex items-center font-semibold">
-          CONTACT
+        <button className="text-white group border-2 px-8 py-4 mt-4 flex items-center justify-center hover:bg-accent hover:border-accent transition-all duration-300 rounded-lg font-semibold text-lg shadow-lg hover:shadow-accent/50 hover:scale-105">
+          SEND MESSAGE
         </button>
       </form>
     </div>
