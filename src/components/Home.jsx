@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import Button from "./Button";
 
 function Home() {
   return (
@@ -16,9 +17,9 @@ function Home() {
         </p>
         <div className="mt-4">
           <Link to="fortytwo" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-8 py-4 my-2 flex items-center hover:bg-accent hover:border-accent transition-all duration-300 rounded-lg font-semibold text-lg shadow-lg hover:shadow-accent/50 hover:scale-105">
+            <Button variant="outline" className="my-2 flex items-center">
               See my projects
-            </button>
+            </Button>
           </Link>
         </div>
       </div>

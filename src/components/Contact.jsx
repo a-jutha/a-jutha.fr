@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import Button from "./Button";
 
 function Contact() {
   return (
@@ -36,9 +37,12 @@ function Contact() {
           placeholder="Message"
           required="required"
         ></textarea>
-        <button className="text-white group border-2 px-8 py-4 mt-4 flex items-center justify-center hover:bg-accent hover:border-accent transition-all duration-300 rounded-lg font-semibold text-lg shadow-lg hover:shadow-accent/50 hover:scale-105">
+        <Button
+          variant="outline"
+          className="mt-4 flex items-center justify-center text-lg"
+        >
           SEND MESSAGE
-        </button>
+        </Button>
       </form>
     </div>
   );
