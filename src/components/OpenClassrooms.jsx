@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import SectionHeader from "./SectionHeader";
 
 function OpenClassrooms() {
   return (
@@ -7,15 +8,10 @@ function OpenClassrooms() {
       className="w-full md:h-screen bg-primary text-secondary min-h-screen py-16"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-accent">
-            OpenClassrooms
-          </p>
-          <p className="py-4">
-            An online learning platform offering career-focused courses in tech
-            and digital skills.
-          </p>
-        </div>
+        <SectionHeader
+          title="OpenClassrooms"
+          description="An online learning platform offering career-focused courses in tech and digital skills."
+        />
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">

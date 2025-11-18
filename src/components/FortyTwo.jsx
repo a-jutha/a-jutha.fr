@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import SectionHeader from "./SectionHeader";
 
 function FortyTwo() {
   return (
@@ -7,15 +8,10 @@ function FortyTwo() {
       className="w-full md:h-screen bg-primary text-secondary min-h-screen py-16"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-accent">
-            42
-          </p>
-          <p className="py-4">
-            A tuition-free coding school with a peer-to-peer learning model and
-            no teachers.
-          </p>
-        </div>
+        <SectionHeader
+          title="42"
+          description="A tuition-free coding school with a peer-to-peer learning model and no teachers."
+        />
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">

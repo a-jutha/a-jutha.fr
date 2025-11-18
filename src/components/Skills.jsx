@@ -6,6 +6,7 @@ import Node from "../assets/skills/node.png";
 import Mongo from "../assets/skills/mongo.png";
 import Tailwind from "../assets/skills/tailwind.png";
 import Sass from "../assets/skills/sass.png";
+import SectionHeader from "./SectionHeader";
 
 function Skills() {
   return (
@@ -15,13 +16,10 @@ function Skills() {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-accent">
-            Skills
-          </p>
-          <p className="py-4">Here are the technologies I've worked with.</p>
-        </div>
+        <SectionHeader
+          title="Skills"
+          description="Here are the technologies I've worked with."
+        />
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-8 text-center py-8">
 
