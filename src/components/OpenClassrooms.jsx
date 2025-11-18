@@ -46,14 +46,23 @@ function OpenClassrooms() {
             </div>
             <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
               <p className="text-secondary text-sm mb-4">#NodeJS</p>
-              <div className="pt-2">
+              <div className="pt-2 flex gap-2 justify-center">
+                <a
+                  href="https://hot-takes-cdk.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-6 py-3 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all duration-300 shadow-lg">
+                    Demo
+                  </button>
+                </a>
                 <a
                   href="https://github.com/cremedekiwi/nodejs_hot_takes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-6 py-3 bg-accent text-white font-bold text-base hover:bg-accent/80 transition-all duration-300 shadow-lg hover:shadow-accent/50">
-                    View Code
+                    Code
                   </button>
                 </a>
               </div>
