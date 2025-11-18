@@ -17,7 +17,7 @@ function OpenClassrooms() {
           <p className="text-4xl font-bold inline border-b-4 border-accent">
             OpenClassrooms
           </p>
-          <p className="py-4">#react #nodejs #js #sass #html #css</p>
+          <p className="py-4">#javascript #react #sass #nodejs</p>
         </div>
 
         {/* Container */}

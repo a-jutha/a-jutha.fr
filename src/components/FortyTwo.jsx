@@ -17,7 +17,7 @@ function FortyTwo() {
           <p className="text-4xl font-bold inline border-b-4 border-accent">
             42
           </p>
-          <p className="py-4">#typescript #tailwind #c++ #c</p>
+          <p className="py-4">#c #c++ #typescript #tailwind</p>
         </div>
 
         {/* Container */}
