@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
-import CV from "../assets/cv_jarumugam_fr.pdf";
+import Logo from "../../assets/logo.png";
+import CV from "../../assets/cv_jarumugam_fr.pdf";
 import { Link } from "react-scroll";
-import NavLink from "./NavLink";
+import { NavLink } from "../ui";
 
 function Navbar() {
   const [nav, setNav] = useState(false);

@@ -1,6 +1,4 @@
-import SectionHeader from "./SectionHeader";
-import Button from "./Button";
-import Input from "./Input";
+import { SectionHeader, Button, Input } from "../ui";
 
 function Contact() {
   return (

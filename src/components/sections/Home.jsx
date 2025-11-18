@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import Button from "./Button";
+import { Button } from "../ui";
 
 function Home() {
   return (

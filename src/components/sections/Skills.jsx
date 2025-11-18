@@ -1,12 +1,12 @@
-import C from "../assets/skills/c.png";
-import CPlus from "../assets/skills/cplus.png";
-import TypeScript from "../assets/skills/typescript.png";
-import React from "../assets/skills/react.png";
-import Node from "../assets/skills/node.png";
-import Mongo from "../assets/skills/mongo.png";
-import Tailwind from "../assets/skills/tailwind.png";
-import Sass from "../assets/skills/sass.png";
-import SectionHeader from "./SectionHeader";
+import C from "../../assets/skills/c.png";
+import CPlus from "../../assets/skills/cplus.png";
+import TypeScript from "../../assets/skills/typescript.png";
+import React from "../../assets/skills/react.png";
+import Node from "../../assets/skills/node.png";
+import Mongo from "../../assets/skills/mongo.png";
+import Tailwind from "../../assets/skills/tailwind.png";
+import Sass from "../../assets/skills/sass.png";
+import { SectionHeader } from "../ui";
 
 function Skills() {
   return (

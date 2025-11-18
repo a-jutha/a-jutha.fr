@@ -1,5 +1,4 @@
-import ProjectCard from "./ProjectCard";
-import SectionHeader from "./SectionHeader";
+import { ProjectCard, SectionHeader } from "../ui";
 
 function FortyTwo() {
   return (
