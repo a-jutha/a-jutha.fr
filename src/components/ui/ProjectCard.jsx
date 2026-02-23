@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function ProjectCard({ title, tags, gradient, codeUrl, demoUrl }) {
+function ProjectCard({ title, tags, gradient, codeUrl, demoUrl, demoLabel }) {
   return (
     <div
       className={`group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br ${gradient}`}
@@ -18,12 +18,14 @@ function ProjectCard({ title, tags, gradient, codeUrl, demoUrl }) {
         <div className="pt-2 flex gap-2 justify-center">
           {demoUrl && (
             <a href={demoUrl} target="_blank" rel="noopener noreferrer">
-              <Button variant="secondary">Demo</Button>
+              <Button variant="secondary">{demoLabel ?? (codeUrl ? "Demo" : "Site")}</Button>
             </a>
           )}
-          <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-            <Button variant="primary">Code</Button>
-          </a>
+          {codeUrl && (
+            <a href={codeUrl} target="_blank" rel="noopener noreferrer">
+              <Button variant="primary">Code</Button>
+            </a>
+          )}
         </div>
       </div>
     </div>

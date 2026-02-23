@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../../assets/logo.png";
 import CV from "../../assets/cv_jarumugam_fr.pdf";
-import { Link } from "react-scroll";
 import { NavLink } from "../ui";
 
 function Navbar() {
@@ -23,16 +21,10 @@ function Navbar() {
   }, [nav]);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-secondary z-50">
-      <div>
-        <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} alt="Logo" style={{ width: "50px" }} />
-        </Link>
-      </div>
-
+    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-primary text-secondary z-50">
       {/* Desktop menu */}
       <ul className="hidden md:flex font-semibold">
-        <NavLink to="skills">skills</NavLink>
+        <NavLink to="pro">pro</NavLink>
         <NavLink to="fortytwo">42</NavLink>
         <NavLink to="openclassrooms">openclassrooms</NavLink>
         <NavLink to="contact">contact</NavLink>
@@ -58,8 +50,8 @@ function Navbar() {
               </a>
             </li>
 
-            <NavLink to="skills" onClick={handleClick} mobile>
-              skills
+            <NavLink to="pro" onClick={handleClick} mobile>
+              pro
             </NavLink>
             <NavLink to="fortytwo" onClick={handleClick} mobile>
               42

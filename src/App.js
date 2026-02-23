@@ -1,9 +1,9 @@
 import {
   Navbar,
   Home,
-  Skills,
   FortyTwo,
   OpenClassrooms,
+  Pro,
   Contact,
 } from "./components/sections";
 
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Skills />
+      <Pro />
       <FortyTwo />
       <OpenClassrooms />
       <Contact />

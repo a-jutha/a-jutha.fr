@@ -37,30 +37,6 @@ function OpenClassrooms() {
             codeUrl="https://github.com/cremedekiwi/js_kanap"
             demoUrl="https://cremedekiwi.github.io/js_kanap/front/html/index.html"
           />
-
-          <ProjectCard
-            title="La Chouette Agence"
-            tags="#SEO #HTML #CSS"
-            gradient="from-lime-500 via-green-600 to-emerald-700"
-            codeUrl="https://github.com/cremedekiwi/html_lachouetteagence"
-            demoUrl="https://cremedekiwi.github.io/html_lachouetteagence/"
-          />
-
-          <ProjectCard
-            title="Ohmyfood"
-            tags="#HTML #SASS"
-            gradient="from-fuchsia-500 via-pink-600 to-rose-700"
-            codeUrl="https://github.com/cremedekiwi/sass_ohmyfood"
-            demoUrl="https://cremedekiwi.github.io/sass_ohmyfood/"
-          />
-
-          <ProjectCard
-            title="Reservia"
-            tags="#HTML #CSS"
-            gradient="from-indigo-500 via-purple-600 to-violet-700"
-            codeUrl="https://github.com/cremedekiwi/css_reservia"
-            demoUrl="https://cremedekiwi.github.io/css_reservia/"
-          />
         </div>
       </div>
     </div>

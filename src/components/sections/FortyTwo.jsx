@@ -34,27 +34,6 @@ function FortyTwo() {
             gradient="from-emerald-500 via-teal-600 to-cyan-700"
             codeUrl="https://github.com/cremedekiwi/cpp_webserv"
           />
-
-          <ProjectCard
-            title="cub3d"
-            tags="#C"
-            gradient="from-orange-500 via-red-500 to-pink-600"
-            codeUrl="https://github.com/cremedekiwi/c_cub3d"
-          />
-
-          <ProjectCard
-            title="minishell"
-            tags="#C"
-            gradient="from-violet-600 via-purple-600 to-fuchsia-700"
-            codeUrl="https://github.com/cremedekiwi/c_minishell"
-          />
-
-          <ProjectCard
-            title="philosopher"
-            tags="#C"
-            gradient="from-rose-500 via-pink-600 to-purple-700"
-            codeUrl="https://github.com/cremedekiwi/c_philosopher"
-          />
         </div>
       </div>
     </div>
