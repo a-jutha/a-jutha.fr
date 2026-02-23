@@ -9,7 +9,7 @@ function FortyTwo() {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <SectionHeader
           title="42"
-          description="A tuition-free coding school with a peer-to-peer learning model and no teachers."
+          description="Une école gratuite avec un modèle d'apprentissage entre pairs et sans enseignants."
         />
 
         {/* Container */}

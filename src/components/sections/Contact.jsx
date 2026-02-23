@@ -13,12 +13,12 @@ function Contact() {
       >
         <SectionHeader
           title="Contact"
-          description="Please fill out the form below."
+          description="J'ai hâte de collaborer avec vous !"
         />
-        <Input type="text" placeholder="Name" name="name" required />
+        <Input type="text" placeholder="Nom" name="name" required />
         <Input
           type="email"
-          placeholder="Email"
+          placeholder="Mail"
           name="email"
           required
           className="my-4"
@@ -35,7 +35,7 @@ function Contact() {
           variant="outline"
           className="mt-4 flex items-center justify-center text-lg"
         >
-          SEND MESSAGE
+          ENVOYER
         </Button>
       </form>
     </div>

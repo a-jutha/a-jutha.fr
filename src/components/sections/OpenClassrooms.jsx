@@ -9,7 +9,7 @@ function OpenClassrooms() {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <SectionHeader
           title="OpenClassrooms"
-          description="An online learning platform offering career-focused courses in tech and digital skills."
+          description="Une école en ligne proposant des cours axés sur les compétences numériques."
         />
 
         {/* Container */}
