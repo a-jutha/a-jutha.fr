@@ -18,7 +18,7 @@ function OpenClassrooms() {
             title="Groupomania"
             tags="#React #NodeJS #SASS"
             gradient="from-sky-500 via-blue-600 to-indigo-700"
-            codeUrl="https://github.com/cremedekiwi/react_groupomania"
+            codeUrl="https://github.com/a-jutha/react_groupomania"
             demoUrl="https://groupomania-client-57uy.onrender.com/"
           />
 
@@ -26,7 +26,7 @@ function OpenClassrooms() {
             title="Hot Takes"
             tags="#NodeJS"
             gradient="from-amber-500 via-orange-600 to-red-600"
-            codeUrl="https://github.com/cremedekiwi/nodejs_hot_takes"
+            codeUrl="https://github.com/a-jutha/nodejs_hot_takes"
             demoUrl="https://hot-takes-cdk.netlify.app"
           />
 
@@ -34,8 +34,8 @@ function OpenClassrooms() {
             title="Kanap"
             tags="#Vanilla JavaScript"
             gradient="from-teal-500 via-cyan-600 to-blue-700"
-            codeUrl="https://github.com/cremedekiwi/js_kanap"
-            demoUrl="https://cremedekiwi.github.io/js_kanap/front/html/index.html"
+            codeUrl="https://github.com/a-jutha/js_kanap"
+            demoUrl="https://a-jutha.github.io/js_kanap/front/html/index.html"
           />
         </div>
       </div>

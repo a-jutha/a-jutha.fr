@@ -32,7 +32,7 @@ function Pro() {
             title="stars"
             tags="#React Native #Expo"
             gradient="from-violet-600 via-purple-700 to-indigo-800"
-            demoUrl="https://expo.dev/accounts/cremedekiwi/projects/stars/builds/f762eb47-8221-40c9-9e49-eed3910f22f6"
+            demoUrl="https://expo.dev/accounts/a-jutha/projects/stars/builds/f762eb47-8221-40c9-9e49-eed3910f22f6"
             demoLabel="APK"
           />
         </div>

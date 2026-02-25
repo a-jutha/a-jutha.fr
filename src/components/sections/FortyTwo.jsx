@@ -18,21 +18,21 @@ function FortyTwo() {
             title="ft_transcendance"
             tags="#TypeScript #Fastify #SQLite #Tailwind"
             gradient="from-accent via-blue-500 to-purple-600"
-            codeUrl="https://github.com/cremedekiwi/ts_transcendence"
+            codeUrl="https://github.com/a-jutha/ts_transcendence"
           />
 
           <ProjectCard
             title="inception"
             tags="#Docker"
             gradient="from-blue-600 via-indigo-600 to-purple-700"
-            codeUrl="https://github.com/cremedekiwi/inception"
+            codeUrl="https://github.com/a-jutha/inception"
           />
 
           <ProjectCard
             title="webserv"
             tags="#C++"
             gradient="from-emerald-500 via-teal-600 to-cyan-700"
-            codeUrl="https://github.com/cremedekiwi/cpp_webserv"
+            codeUrl="https://github.com/a-jutha/cpp_webserv"
           />
         </div>
       </div>
