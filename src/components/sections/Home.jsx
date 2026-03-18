@@ -16,7 +16,7 @@ function Home() {
           Quand les pixels rencontrent la programmation.
         </p>
         <div className="mt-4">
-          <Link to="fortytwo" smooth={true} duration={500}>
+          <Link to="pro" smooth={true} duration={500}>
             <Button variant="outline" className="my-2 flex items-center">
               Voir mes projets
             </Button>
