@@ -3,7 +3,7 @@ import { Button } from "../ui";
 
 function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-primary">
+    <div name="home" className="w-full h-screen bg-transparent">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-xl sm:text-5xl font-bold bg-gradient-to-r from-accent via-blue-400 to-accent bg-clip-text text-transparent animate-pulse mb-2">

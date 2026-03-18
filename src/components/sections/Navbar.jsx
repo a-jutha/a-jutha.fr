@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
+import { useEffect, useState } from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import CV from "../../assets/cv_jarumugam_fr.pdf";
 import { NavLink } from "../ui";
 
@@ -21,35 +21,57 @@ function Navbar() {
   }, [nav]);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-primary text-secondary z-50">
+    <div className="fixed w-full h-[80px] flex justify-end md:justify-between items-center px-4 bg-slate-950/55 backdrop-blur-md border-b border-slate-700/60 text-secondary z-50">
       {/* Desktop menu */}
-      <ul className="hidden md:flex font-semibold">
+      <ul className="hidden md:flex font-semibold items-center gap-4">
         <NavLink to="pro">pro</NavLink>
         <NavLink to="fortytwo">42</NavLink>
         <NavLink to="openclassrooms">openclassrooms</NavLink>
-        <NavLink to="contact">contact</NavLink>
       </ul>
 
+      {/* Desktop socials */}
+      <div className="hidden md:flex items-center gap-2 lg:gap-3 text-sm font-semibold">
+        <a
+          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          href="https://www.linkedin.com/in/a-jutha/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin size={16} />
+          LinkedIn
+        </a>
+        <a
+          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          href="https://github.com/a-jutha"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub size={16} />
+          GitHub
+        </a>
+        <a
+          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          href={CV}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsFillPersonLinesFill size={16} />
+          CV
+        </a>
+      </div>
+
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-[150] relative cursor-pointer">
+      <div
+        onClick={handleClick}
+        className="md:hidden z-[150] relative cursor-pointer"
+      >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
       {nav && (
-        <div className="fixed inset-0 bg-primary z-[100] md:hidden flex items-center justify-center">
+        <div className="fixed inset-0 bg-slate-950/85 backdrop-blur-md z-[100] md:hidden flex items-center justify-center">
           <ul className="flex flex-col items-start">
-            <li className="py-6 text-4xl hover:text-accent">
-              <a
-                onClick={handleClick}
-                href={CV}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                cv
-              </a>
-            </li>
-
             <NavLink to="pro" onClick={handleClick} mobile>
               pro
             </NavLink>
@@ -59,48 +81,40 @@ function Navbar() {
             <NavLink to="openclassrooms" onClick={handleClick} mobile>
               openclassrooms
             </NavLink>
-            <NavLink to="contact" onClick={handleClick} mobile>
-              contact
-            </NavLink>
+
+            <li className="py-4 text-3xl hover:text-accent">
+              <a
+                onClick={handleClick}
+                href="https://www.linkedin.com/in/a-jutha/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin
+              </a>
+            </li>
+            <li className="py-4 text-3xl hover:text-accent">
+              <a
+                onClick={handleClick}
+                href="https://github.com/a-jutha"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github
+              </a>
+            </li>
+            <li className="py-4 text-3xl hover:text-accent">
+              <a
+                onClick={handleClick}
+                href={CV}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                cv
+              </a>
+            </li>
           </ul>
         </div>
       )}
-
-      {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-secondary"
-              href="https://www.linkedin.com/in/a-jutha/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <a
-              className="flex justify-between items-center w-full text-secondary"
-              href="https://github.com/a-jutha"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="flex justify-between items-center w-full text-secondary"
-              href={CV}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CV <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }

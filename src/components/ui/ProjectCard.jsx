@@ -2,33 +2,33 @@ import Button from "./Button";
 
 function ProjectCard({ title, tags, gradient, codeUrl, demoUrl, demoLabel }) {
   return (
-    <div
-      className={`group container rounded-lg flex flex-col justify-center items-center mx-auto h-[200px] shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-gray-700 hover:border-accent overflow-hidden relative bg-gradient-to-br ${gradient}`}
-    >
-      {/* Title always visible */}
-      <div className="relative z-10 text-center opacity-100 group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
-        <span className="text-3xl font-black text-white tracking-wider block">
+    <article className="group relative w-full rounded-xl border border-slate-700/70 bg-slate-900/85 p-4 h-[160px] flex flex-col justify-between shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-500 hover:shadow-lg">
+      <div
+        className={`absolute inset-x-0 top-0 h-1 rounded-t-xl bg-gradient-to-r ${gradient} opacity-70`}
+      />
+
+      <div className="pt-2">
+        <h3 className="text-lg font-bold leading-tight text-white tracking-wide uppercase">
           {title}
-        </span>
+        </h3>
+        <p className="mt-2 text-xs text-secondary/80">{tags}</p>
       </div>
 
-      {/* Content on hover */}
-      <div className="absolute inset-0 bg-primary/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 z-20">
-        <p className="text-secondary text-sm mb-4">{tags}</p>
-        <div className="pt-2 flex gap-2 justify-center">
-          {demoUrl && (
-            <a href={demoUrl} target="_blank" rel="noopener noreferrer">
-              <Button variant="secondary">{demoLabel ?? (codeUrl ? "Demo" : "Site")}</Button>
-            </a>
-          )}
-          {codeUrl && (
-            <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-              <Button variant="primary">Code</Button>
-            </a>
-          )}
-        </div>
+      <div className="flex gap-2 pt-3 opacity-95 transition-opacity duration-300 group-hover:opacity-100">
+        {demoUrl && (
+          <a href={demoUrl} target="_blank" rel="noopener noreferrer">
+            <Button variant="secondary">
+              {demoLabel ?? (codeUrl ? "Demo" : "Site")}
+            </Button>
+          </a>
+        )}
+        {codeUrl && (
+          <a href={codeUrl} target="_blank" rel="noopener noreferrer">
+            <Button variant="primary">Code</Button>
+          </a>
+        )}
       </div>
-    </div>
+    </article>
   );
 }
 

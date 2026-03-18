@@ -5,12 +5,15 @@ function NavLink({ to, children, onClick, mobile = false }) {
   const desktopClasses = "";
 
   return (
-    <li className={`hover:text-accent ${mobile ? mobileClasses : desktopClasses}`}>
+    <li
+      className={`hover:text-accent ${mobile ? mobileClasses : desktopClasses}`}
+    >
       <Link
         to={to}
         smooth={true}
         duration={500}
         onClick={onClick}
+        className="no-underline hover:no-underline"
       >
         {children}
       </Link>

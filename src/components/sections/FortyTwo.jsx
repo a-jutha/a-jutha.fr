@@ -4,7 +4,7 @@ function FortyTwo() {
   return (
     <div
       name="fortytwo"
-      className="w-full md:h-screen bg-primary text-secondary min-h-screen py-16"
+      className="w-full md:h-screen bg-transparent text-secondary min-h-screen py-16"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <SectionHeader

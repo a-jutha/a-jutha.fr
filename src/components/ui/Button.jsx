@@ -1,13 +1,14 @@
 function Button({ children, variant = "primary", className = "", ...props }) {
   const baseClasses =
-    "text-center rounded-lg px-6 py-3 font-bold text-base transition-all duration-300 shadow-lg";
+    "text-center rounded-md px-4 py-2 font-semibold text-sm transition-all duration-300";
 
   const variants = {
     primary:
-      "bg-accent text-white hover:bg-accent/80 hover:shadow-accent/50 border-2 border-accent hover:scale-105",
-    secondary: "bg-blue-600 text-white hover:bg-blue-700 border-2 border-blue-600 hover:border-blue-700",
+      "bg-transparent text-emerald-300 hover:text-emerald-200 border border-emerald-400/80 hover:border-emerald-300 hover:bg-emerald-400/10",
+    secondary:
+      "bg-transparent text-sky-300 hover:text-sky-200 border border-sky-400/80 hover:border-sky-300 hover:bg-sky-400/10",
     outline:
-      "text-white border-2 hover:bg-accent hover:border-accent hover:shadow-accent/50 hover:scale-105",
+      "text-white border border-slate-500 hover:bg-slate-700 hover:border-slate-400",
   };
 
   return (

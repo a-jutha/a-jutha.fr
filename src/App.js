@@ -1,10 +1,9 @@
 import {
-  Navbar,
-  Home,
   FortyTwo,
+  Home,
+  Navbar,
   OpenClassrooms,
   Pro,
-  Contact,
 } from "./components/sections";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Pro />
       <FortyTwo />
       <OpenClassrooms />
-      <Contact />
     </div>
   );
 }
