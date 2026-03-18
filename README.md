@@ -64,6 +64,7 @@ portfolio/
 ## Components
 
 ### Sections
+
 - **Navbar**: Navigation bar with smooth scroll links
 - **Home**: Landing section with introduction
 - **Skills**: Display of technical skills and competencies
@@ -72,6 +73,7 @@ portfolio/
 - **Contact**: Contact form and information
 
 ### UI Components
+
 - **Button**: Reusable button component with consistent styling
 - **Input**: Form input component with Tailwind styling
 - **NavLink**: Navigation link component for the navbar
