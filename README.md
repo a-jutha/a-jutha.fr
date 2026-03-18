@@ -1,10 +1,10 @@
-# juth.fr
+# a-jutha.fr
 
 A modern, responsive portfolio website built with React and styled with Tailwind CSS. This project showcases web development skills and serves as a professional online presence.
 
 ## Live Demo
 
-Visit the live portfolio at: [www.juth.fr](https://www.juth.fr)
+Visit the live portfolio at: [www.a-jutha.fr](https://www.a-jutha.fr)
 
 ## Features
 
