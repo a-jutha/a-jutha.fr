@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedin, FaTimes, FaFilePdf } from "react-icons/fa";
 import CV from "../../assets/cv_jarumugam_fr.pdf";
 import { NavLink } from "../ui";
 
@@ -30,33 +29,30 @@ function Navbar() {
       </ul>
 
       {/* Desktop socials */}
-      <div className="hidden md:flex items-center gap-2 lg:gap-3 text-sm font-semibold">
+      <div className="hidden md:flex items-center gap-2 lg:gap-4 text-sm font-semibold">
         <a
-          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          className="inline-flex items-center gap-2 hover:text-accent transition-colors duration-300"
           href="https://www.linkedin.com/in/a-jutha/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size={16} />
-          LinkedIn
+          <FaLinkedin size={24} />
         </a>
         <a
-          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          className="inline-flex items-center gap-2 hover:text-accent transition-colors duration-300"
           href="https://github.com/a-jutha"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub size={16} />
-          GitHub
+          <FaGithub size={24} />
         </a>
         <a
-          className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-slate-600/80 hover:border-accent hover:text-accent transition-colors duration-300"
+          className="inline-flex items-center gap-2 hover:text-accent transition-colors duration-300"
           href={CV}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsFillPersonLinesFill size={16} />
-          CV
+          <FaFilePdf size={24} />
         </a>
       </div>
 
