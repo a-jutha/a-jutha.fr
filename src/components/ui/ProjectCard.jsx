@@ -1,12 +1,8 @@
 import Button from "./Button";
 
-function ProjectCard({ title, tags, gradient, codeUrl, demoUrl, demoLabel }) {
+function ProjectCard({ title, tags, codeUrl, demoUrl, demoLabel }) {
   return (
     <article className="group relative w-full rounded-xl border border-slate-700/70 bg-slate-900/85 p-4 h-[160px] flex flex-col justify-between shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-500 hover:shadow-lg">
-      <div
-        className={`absolute inset-x-0 top-0 h-1 rounded-t-xl bg-gradient-to-r ${gradient} opacity-70`}
-      />
-
       <div className="pt-2">
         <h3 className="text-lg font-bold leading-tight text-white tracking-wide uppercase">
           {title}

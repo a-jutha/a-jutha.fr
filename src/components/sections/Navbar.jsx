@@ -25,7 +25,7 @@ function Navbar() {
       <div className="fixed w-full h-[80px] flex justify-end md:justify-between items-center px-8 bg-slate-950/55 backdrop-blur-md text-secondary z-50">
         {/* Desktop menu */}
         <ul className="hidden md:flex font-semibold items-center">
-          <NavLink to="pro">pro</NavLink>
+          <NavLink to="pro">expériences professionnelles</NavLink>
           <NavLink to="fortytwo">42</NavLink>
           <NavLink to="openclassrooms">openclassrooms</NavLink>
         </ul>
