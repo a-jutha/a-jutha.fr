@@ -10,7 +10,7 @@ function Home() {
           42 common core complété.
         </p>
         <p className="text-lg sm:text-3xl text-accent font-semibold mb-6">
-          Actuellement en stage, disponsible dès juillet 2026 pour un CDI.
+          Actuellement en stage, disponsible dès juillet 2026 pour une expérience professionnelle.
         </p>
         <p className="text-base sm:text-3xl text-secondary py-4 max-w-[700px] font-light">
           Quand les pixels rencontrent la programmation.
