@@ -79,7 +79,7 @@ function Navbar() {
             </div>
             <ul className="flex flex-col items-center text-secondary">
               <NavLink to="pro" onClick={handleClick} mobile>
-                pro
+                xp professionnelles
               </NavLink>
               <NavLink to="fortytwo" onClick={handleClick} mobile>
                 42
@@ -87,6 +87,8 @@ function Navbar() {
               <NavLink to="openclassrooms" onClick={handleClick} mobile>
                 openclassrooms
               </NavLink>
+
+              <li className="w-16 border-t border-secondary/30 my-2" />
 
               <li className="py-4 text-3xl hover:text-accent">
                 <a

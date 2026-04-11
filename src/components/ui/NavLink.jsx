@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 function NavLink({ to, children, onClick, mobile = false }) {
-  const mobileClasses = "py-6 text-4xl";
+  const mobileClasses = "py-6 text-3xl";
   const desktopClasses = "";
 
   return (
