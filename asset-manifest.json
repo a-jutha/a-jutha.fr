@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.104be586.css",
-    "main.js": "/static/js/main.bc45fbe7.js",
+    "main.css": "/static/css/main.afedd35f.css",
+    "main.js": "/static/js/main.a0596ac4.js",
     "static/media/cv_jarumugam_fr.pdf": "/static/media/cv_jarumugam_fr.0111afe594600b065461.pdf",
     "index.html": "/index.html",
-    "main.104be586.css.map": "/static/css/main.104be586.css.map",
-    "main.bc45fbe7.js.map": "/static/js/main.bc45fbe7.js.map"
+    "main.afedd35f.css.map": "/static/css/main.afedd35f.css.map",
+    "main.a0596ac4.js.map": "/static/js/main.a0596ac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.104be586.css",
-    "static/js/main.bc45fbe7.js"
+    "static/css/main.afedd35f.css",
+    "static/js/main.a0596ac4.js"
   ]
 }
