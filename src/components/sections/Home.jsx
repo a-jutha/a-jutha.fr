@@ -1,4 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Button } from "../ui";
 
@@ -11,7 +10,7 @@ function Home() {
           Juthamandjou Arumugam
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold py-2 leading-tight">
-          <span className="bg-gradient-to-r from-accent via-blue-400 to-accent bg-clip-text text-transparent">
+          <span className="text-accent">
             Développeur Web & Mobile
           </span>
         </h2>
@@ -29,7 +28,6 @@ function Home() {
               className="group px-6 py-3 flex items-center gap-3"
             >
               Voir mes projets
-              <FaArrowRight className="group-hover:rotate-90 transition-transform duration-300" />
             </Button>
           </Link>
         </div>
