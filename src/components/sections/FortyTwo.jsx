@@ -9,7 +9,7 @@ function FortyTwo() {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <SectionHeader
           title="42"
-          description="Une école avec un modèle d'apprentissage entre pairs."
+          description="Une école avec un modèle d'apprentissage entre pairs"
         />
 
         {/* Container */}
